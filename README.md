@@ -1,9 +1,9 @@
 
 ## Shopmate-React-Context-Reducers-Webpage
 
-Shopmate is a demo React E-Commerce Web Application (Global Level State Application), using the React concepts/features of "useContext" and "useReducers". React Core, Hooks, Routing, HTML, CSS, Responsive Screen, Context, and Reducers functionalities have been used in this project and deployed on Netlify.
+Shopmate is a demo React E-Commerce Web Application (Global Level State Application), using React "useContext" and "useReducer" features. React Core, Hooks, Routing, HTML, CSS, Responsive Screen, Context, and Reducers functionalities have been used in this project and deployed on Netlify.
 
-**Note:** "useContext" and "useReducers" have been employed in this React project; "Redux" and "Redux-Toolkit" have not been used here.
+**Note:** "useContext" and "useReducer" have been employed in this React project; "Redux" and "Redux-Toolkit" have not been used here.
 
 **This webpage can be seen by using this URL:** 
 
