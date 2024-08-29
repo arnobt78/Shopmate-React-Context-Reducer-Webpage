@@ -28,8 +28,11 @@ Then go to that project folder, and write this command via terminal from your pr
 ## About React Context and Reducers
 
 - **useContext**: Global State Management
+
 Used to save state globally so the state is available globally in our application.
+
 - **useReducers**: Perform Actions On Global State
+
 Allow us to manage complex state logic.
 
 Vocab,
