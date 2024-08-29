@@ -1,7 +1,11 @@
 
+<img width="1254" alt="Screenshot 2024-08-29 at 18 48 19" src="https://github.com/user-attachments/assets/c0f1abe9-ade8-4998-aa5a-08db61a9e2ca"> <img width="1255" alt="Screenshot 2024-08-29 at 18 48 40" src="https://github.com/user-attachments/assets/7ae1bb28-10c3-4e5e-88cd-e8cd24f334a6">
+
+
+
 ## Shopmate-React-Context-Reducers-Webpage
 
-Shopmate is a demo React E-Commerce Web Application (Global Level State Application), using React "useContext" and "useReducer" features. React Core, Hooks, Routing, HTML, CSS, Responsive Screen, Context, and Reducers functionalities have been used in this project and deployed on Netlify.
+Shopmate is a demo React E-Commerce Web Application (Global Level State Application), using React **"useContext"** and **"useReducer"** features. React Core, Hooks, Routing, HTML, CSS, Responsive Screen, Context, and Reducers functionalities have been used in this project and deployed on Netlify.
 
 **Note:** "useContext" and "useReducer" have been employed in this React project; "Redux" and "Redux-Toolkit" have not been used here.
 
