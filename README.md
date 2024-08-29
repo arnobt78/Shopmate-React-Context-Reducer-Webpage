@@ -25,7 +25,7 @@ Then go to that project folder, and write this command via terminal from your pr
 
 (To check for more details about React-Router, please visit: https://reactrouter.com/en/main )
 
-## # Context and Reducers
+## About React Context and Reducers
 
 - **useContext**: Global State Management
 Used to save state globally so the state is available globally in our application.
