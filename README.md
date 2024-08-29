@@ -1,6 +1,97 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Shopmate-React-Context-Reducers-Webpage
+
+Shopmate is a demo React E-Commerce Web Application (Global Level State Application), using the React concepts/features of "useContext" and "useReducers". React Core, Hooks, Routing, HTML, CSS, Responsive Screen, Context, and Reducers functionalities have been used in this project and deployed on Netlify.
+
+**Note:** "useContext" and "useReducers" have been employed in this React project; "Redux" and "Redux-Toolkit" have not been used here.
+
+**This webpage can be seen by using this URL:** https://shopmate-cr-arnob.netlify.app
+
+## To Install Dependences
+
+Before launching this web application, be sure to install all required dependencies, which are listed in the package.json file.
+
+To install all dependences, run this command from your project folder: `npm install`
+
+## To Install NodeJS
+
+Make sure you have NodeJS installed in your machine first, The installation instructions are here: https://nodejs.org/en/
+
+## To Install React-Router 
+
+Open up your terminal and bootstrap a new React app by: `npx create-react-app`
+
+Then go to that project folder, and write this command via terminal from your project folder: `npm install react-router-dom`
+
+(To check for more details about React-Router, please visit: https://reactrouter.com/en/main )
+
+## # Context and Reducers
+
+- **useContext**: Global State Management
+Used to save state globally so the state is available globally in our application.
+- **useReducers**: Perform Actions On Global State
+Allow us to manage complex state logic.
+
+Vocab,
+
+- `context` - an API given to us by React, allowing for the passing of information to child components without the use of props
+  
+- `reducer` - a pure function, accepting a state & action, and returning a new state
+  
+- `action` - an object literal, which describes a change to the state
+  
+- `useContext` - a react hook, that allows functional components to take advantage of the context API
+  
+- `useReducer` - a react hook, used in place of `useState`, generally for more complex state
+  
+- `dispatch` - a function returned to us by `useReducer`, which sends action objects to the reducer function
+
+**context/CartContext.js**
+
+1. Create a ‘context’ folder with ‘CartContext.js’ file inside it
+
+2. Define initialState
+
+3. Create CartContext using createContext with initialState
+
+**context/cartReducer.js**
+
+1. Create a ‘reducer’ folder with ‘cartReducer.js’ inside it
+
+2. Create cartReducer function with parameters as state and action
+
+3. Define all operations as switch statements inside the cartReducer
+
+**context/CartContext.js**
+
+1. Create CartProvider accessing the children
+
+2. Access state and dispatch using useReducer with cartReducer and initialState
+
+3. Define function for each possible operation
+
+4. Use dispatch to execute the operation along with type and payload
+
+5. Return the CartContext.Provider with children and prop value
+Values that you want to access inside the entire application
+
+6. Create useCart function, 
+- Define context using useContext(CartContext)
+- Return the context
+
+**App.js**
+
+1. Wrap entire App with CartProvider
+
+**CartCard.js**
+
+1. Access all values using useCart()
+
+2. Add a condition to restrict ‘Add To Cart’ for one-time use for each product 
+
+**Cart.js**
+
+1. Access cart items and total using useCart()
 
 ## Available Scripts
 
